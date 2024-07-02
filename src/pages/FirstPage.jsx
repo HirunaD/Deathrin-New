@@ -3,21 +3,32 @@ import React from 'react';
 import backgroundImage from '/1bg.png';
 import secondBackgroundImage from '/blue.png'; 
 import moonImage from '/moon.png';
+import leftImage from '/frontleft.png'
 
 const FirstPage = () => {
   return (
     <>
       {/* First Section */}
       <div 
-        className="relative flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8 py-8" 
+        className="relative flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8 py-8 h-screen" 
         style={{
           backgroundImage: `url(${backgroundImage})`,
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center',
-          height: '465px'
+          height: ''
         }}
       >
+        {/* <div>
+        className="relative flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8 py-8 h-screen" 
+        style={{
+          backgroundImage: `url(${leftImage})`,
+          backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'center',
+          height: ''
+        }}
+        </div> */}
         <div className="relative z-10 text-center text-white">
           <div>
             <p className="font-deadpool font-normal text-customff">WELCOME TO</p>

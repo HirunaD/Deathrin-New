@@ -3,7 +3,7 @@ import navLogo from "/deathrinlogo.png"
 
 const Navbar = () => {
   return (
-    <nav className="border-b-4 border-gray-600 bg-gradient-to-r from-leftBlue to-rightBlue mx-auto rounded-b-lg" 
+    <nav className="border-b-4 border-none bg-gradient-to-r from-leftBlue to-rightBlue mx-auto rounded-b-lg" 
       style={{ maxWidth: '1296px', height: '80px' }}
     >
       <div className="flex justify-between items-center h-full px-4 lg:px-8">
