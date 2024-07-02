@@ -1,4 +1,5 @@
 // import React from 'react';
+import navLogo from "/deathrinlogo.png"
 
 const Navbar = () => {
   return (
@@ -6,8 +7,11 @@ const Navbar = () => {
       style={{ maxWidth: '1296px', height: '80px' }}
     >
       <div className="flex justify-between items-center h-full px-4 lg:px-8">
-        <div className="flex items-center space-x-4">
+        {/* <div className="flex items-center space-x-4">
           <a href="./" className="navbar-link text-white hover:text-gray-400 transition duration-300">Pictures</a>
+        </div> */}
+        <div>
+        <img src={navLogo} alt="Blue Image" className="w-74 h-74" />
         </div>
         <div className="flex-grow flex justify-end items-center space-x-12">
           <a href="/" className="navbar-link text-white hover:text-gray-400 transition duration-300 font-poppins font-normal text-custom">Tokenomics</a>
