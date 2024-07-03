@@ -19,7 +19,7 @@ function App() {
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center',
-          height: ''
+          height: 'auto'
         }}>
         <Navbarnew />
         <FirstPage />
