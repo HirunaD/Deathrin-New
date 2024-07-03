@@ -32,7 +32,10 @@ export default {
       },
       borderRadius: {
         'customet': '8px' 
-      }
+      },
+      // backgroundColor: {
+      //   'first-bg': "url('/assets/1bg.png')"
+      // }
     },
   },
   plugins: [],
