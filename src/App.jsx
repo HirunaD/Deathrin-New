@@ -14,13 +14,15 @@ function App() {
   return (
     <>
       
-      <div style={{
+      <div 
+      style={{
           backgroundImage: `url(${backgroundImage})`,
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center',
           height: 'auto'
-        }}>
+        }}
+        >
         <Navbarnew />
         <FirstPage />
         <Tokenomics />
