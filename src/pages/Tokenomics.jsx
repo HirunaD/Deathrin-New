@@ -6,10 +6,11 @@ import rightBox from '/rightTokenbox.png';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Swipernew from './Swipernew';
 
 const Tokenomics = () => {
   return (
-    <div className="relative flex flex-col items-center">
+    <div className="relative flex flex-col items-center h-[950px]">
       
       {/* Tokenomics Background Section */}
       <div className="relative w-full">
@@ -26,33 +27,18 @@ const Tokenomics = () => {
       </div>
       
       {/* Tokenbox Image */}
-      <div className="relative w-full flex justify-center mt-[50px] z-10">
+      <div className="relative w-full flex justify-center mt-[50px]  z-10">
+
+        <Swipernew/>
         
-        <img
-          src={leftBox}
-          alt='tokenbox'
-          className='w-[387px] h-[418px] object-cover'
-        />
-
-        <img
-          src={box}
-          alt='tokenbox'
-          className='w-[387px] h-[418px] object-cover mr-10 ml-10'
-        />
-
-        <img
-          src={rightBox}
-          alt='tokenbox'
-          className='w-[387px] h-[418px] object-cover'
-        />
       </div>
 
       <div>
-            <button className="mt-12 text-base sm:text-lg lg:text-xl bg-gradient-to-r from-leftbuynow to-rightbuynow hover:bg-blue-700 
-              text-white font-bold py-2 px-4 rounded-customet w-[210px] h-[48px]">            
-              BuY NoW
-            </button>
-          </div>
+        <button className="mt-12 text-base sm:text-lg lg:text-xl bg-gradient-to-r from-leftbuynow to-rightbuynow hover:bg-blue-700 
+        text-white font-bold py-2 px-4 rounded-customet w-[210px] h-[48px]">            
+          BuY NoW
+        </button>
+      </div>
       
       {/* Second Background Image */}
       <img 

@@ -16,7 +16,8 @@ export default {
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
         rubik: ['Rubik', 'sans-serif'],
-        deadpool: ['Deadpool', 'sans-serif']
+        deadpool: ['Deadpool', 'sans-serif'],
+        roguehero: ['Roguehero', 'sans-serif']
       },
       fontWeight: {
         normal: 400,
@@ -27,6 +28,7 @@ export default {
       fontSize: {
         'custom': '16px',
         'customtw': '20px',
+        'customft': '40px',
         'customff': '50px',
         'large': '110px'
       },
