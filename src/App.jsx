@@ -21,17 +21,17 @@ function App() {
     <>
       
       <div 
-      // style={{
-      //     backgroundImage: `url(${backgroundImage})`,   
-      //     backgroundColor: 'darkblue',
-      //     backgroundSize: 'cover',
-      //     backgroundRepeat: 'no-repeat',
-      //     backgroundPosition: 'center',
-      //     height: 'auto'
-      //   }}
+      style={{
+          backgroundImage: `url(${backgroundImage})`,   
+          backgroundColor: 'darkblue',
+          backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'center',
+          height: 'auto'
+        }}
         >
         <Navbarnew />
-        {/* <FirstPage /> */}
+        <FirstPage />
         {/* <Tokenomics /> */}
         {/* <Swipernew /> */}
         {/* <Features /> */}
