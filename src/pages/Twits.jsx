@@ -9,6 +9,7 @@ import fourth from '/4.png';
 import fifth from '/5.png'; 
 import sixth from '/6.png'; 
 import mount from '/twitmount.png';
+import TwitterPost from '../components/TwitterPost';
 
 function Tweets() {
   return (
@@ -20,25 +21,15 @@ function Tweets() {
         className="w-full h-auto object-cover" 
       />
 
-      <div className="absolute inset-0 flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 py-8 -mt-[500px]">
+      <div className="absolute inset-0 flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 py-8 -mt-[1200px]">
         
         <h1 className="text-white text-4xl sm:text-5xl lg:text-6xl text-center font-deadpool font-normal text-customff">
           SEE TWITES
         </h1>
 
         <div className="relative flex flex-wrap items-center justify-center mt-20 space-x-4 space-y-4">
-          
-          <img 
-            src={insta} 
-            alt="Instagram" 
-            className="w-[377px] h-[455px] object-cover" 
-          />
 
-          <img 
-            src={fight} 
-            alt="Fight" 
-            className="w-[377px] h-[455px] object-cover" 
-          />
+          <TwitterPost />
 
           <div className="flex flex-col space-y-4">
             <img 

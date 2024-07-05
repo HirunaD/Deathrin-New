@@ -3,8 +3,8 @@ import navLogo from "/deathrinlogo.png"
 
 const Navbar = () => {
   return (
-    <nav className="border-b-4 border-none bg-gradient-to-r from-leftBlue to-rightBlue mx-auto rounded-b-lg max-w-[1296px] h-[80px]">
-      <div className="flex justify-between items-center h-full px-4 lg:px-8">
+    <nav className="bg-gradient-to-r from-leftBlue to-rightBlue mx-auto rounded-b-lg max-w-[1296px] h-[80px]">
+      <div className="flex justify-between items-center h-full px-4 lg:px-8 ">
         <div>
         <img src={navLogo} alt="Blue Image" className="w-74 h-74" />
         </div>
@@ -17,16 +17,9 @@ const Navbar = () => {
           </a>
           <a href="/contact" className="navbar-link text-yellow hover:text-gray-400 transition duration-300 font-rubik font-bold 
           border-2 border-yellow rounded-customet w-[163px] h-[50px] flex items-center justify-center text-center"
-          // style={{
-          //   width: '163px',
-          //   height: '50px',
-          //   display: 'flex',
-          //   textAlign: 'center',
-          //   justifyContent: 'center',
-          //   alignItems: 'center'
-          // }}
           >Connect Wallet</a>
         </div>
+
       </div>
     </nav>
   );
