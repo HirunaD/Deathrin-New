@@ -34,9 +34,9 @@ const FirstPage = () => {
           className='absolute right-0 top-0 w-[740px] object-cover z-10 h-[100px] sm:h-[300px] md:h[450px] lg:[550px] xl:h-full' 
         />
         
-        <div className="relative z-10 text-center text-white">
+        <div className="relative z-10 text-center text-white -mt-[120px]">
           <div>
-            <p className="font-deadpool font-normal h-[30px] -mt-[120px] md:mt-0 md:text-customff text-[23px]">WELCOME TO</p>
+            <p className="font-deadpool font-normal h-[30px] md:mt-0 md:text-customff text-[23px]">WELCOME TO</p>
             <p className='font-deadpool font-normal md:text-large text-[50px]'>DEATHRIN</p>
           </div>
           <div>
@@ -61,27 +61,26 @@ const FirstPage = () => {
         <img 
           src={secondBackgroundImage} 
           alt="2-background" 
-          className="absolute inset-0 w-full h-[300px] md:w-full md:h-full object-cover z-0" 
+          className="absolute inset-0 w-full h-[300px] sm:w-full sm:h-full md:w-full md:h-full object-cover z-0" 
         />
 
         <img
           src={mount}
           alt='mountain'
-          className='absolute inset-0 w-full h-[300px] sm:w-full sm:h-full md:h-full md:w-full object-cover -translate-y-12 lg:-top-[100px]'
+          className='absolute inset-0 w-full h-[300px] sm:w-full sm:h-[500px] md:h-full md:w-full object-cover -translate-y-12 lg:-top-[100px]'
         />
 
         <img
           src={moonImage}
           alt='moon'
-          className='relative inset-0 object-cover z-0 lg:left-9 top-[-380px] md:top-[-100px] lg:top-[-180px] sm:w-[500px] md:w-[770px] md:h-[500px] '
+          className='relative inset-0 object-cover z-0 lg:left-9 top-[-380px] md:top-[-100px] lg:top-[-180px] sm:w-[500px] md:w-[770px] md:h-[500px] max-w-[300px]'
         />
 
         <img
           src={mens4}
           alt='mens'
-          className='absolute inset-0 w-full h-[230px] sm:w-full sm:h-full md:w-full md:h-full lg:w-full lg:h-full top-[20px] lg:top-0'
+          className='absolute inset-0 w-full h-[230px] sm:w-full sm:h-[300px] md:w-full md:h-[800px] lg:w-full lg:h-full top-[20px] sm:top-[150px] lg:top-0'
         />
-
       </div>
     </>
   );
