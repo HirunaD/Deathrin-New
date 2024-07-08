@@ -5,7 +5,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-gradient-to-r from-leftBlue to-rightBlue mx-auto rounded-b-lg w-[340px] sm:w-[600px] md:w-[700px] lg:w-[1296px] h-[80px]">
+    <nav className="bg-gradient-to-r from-leftBlue to-rightBlue mx-auto rounded-b-lg w-[340px] sm:w-[600px] md:w-[700px] lg:w-[1000px] h-[80px]">
       <div className="flex justify-between items-center h-full px-4 lg:px-8 relative">
         <div>
           <img src={navLogo} alt="Logo" className="w-74 h-74"/>

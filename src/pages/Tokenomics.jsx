@@ -14,14 +14,14 @@ const Tokenomics = () => {
     <div className="relative flex flex-col items-center h-[950px]">
       
       {/* Tokenomics Background Section */}
-      <div className="relative w-full mt-[-770px] sm:mt-[-580px] md:mt-[10px]">
+      <div className="relative w-full mt-[-540px] sm:mt-[-580px] md:-mt-[550px] lg:-mt-[120px] xl:mt-[100px] 2xl:mt-[150px]">
         <img 
           src={tokenomicsBg} 
           alt="Tokenomics Background" 
-          className="w-full h-[80px] sm:w-full sm:h-full md:w-full md:h-full lg:w-full lg:h-[316px] object-cover relative bottom-10 -mt-[10px] md:-mt-1 lg:-mt-5" 
+          className="w-full h-[80px] sm:w-full sm:h-full md:w-full md:h-full lg:w-full lg:h-[266px] object-cover relative bottom-10 " 
         />
-        <div className="absolute inset-0 flex items-center justify-center">
-          <h1 className="text-white text-[30px] sm:text-[40px] lg:text-[51px] text-center font-deadpool font-normal -mt-[80px]">
+        <div className="absolute inset-0 flex items-center justify-center mt-[80px]">
+          <h1 className="text-white text-[30px] sm:text-[40px] lg:text-[51px] text-center font-deadpool font-normal -mt-[160px]">
             TOKENOMICS
           </h1>
         </div>
@@ -34,9 +34,9 @@ const Tokenomics = () => {
         
       </div>
 
-      <div className=''> 
-        <button className="mt-[200px] text-base sm:text-lg lg:text-xl bg-gradient-to-r from-leftbuynow to-rightbuynow hover:bg-blue-700 
-        text-white font-bold py-2 px-4 rounded-customet w-[210px] h-[48px]">            
+      <div className='mt-[30px] lg:mt-[50px]'> 
+        <button className="text-base sm:text-lg lg:text-xl bg-gradient-to-r from-leftbuynow to-rightbuynow hover:bg-blue-700 
+        text-white font-bold py-2 px-4 rounded-customet w-[170px] h-[38px] md:w-[210px] md:h-[48px]">            
           BuY NoW
         </button>
       </div>

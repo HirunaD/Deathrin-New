@@ -11,6 +11,7 @@ import backgroundImage from '/1bg.png';
 import Swipernew from './pages/Swipernew';
 import Features from './pages/Features';
 import Twits from './pages/Twits';
+import Featuresnew from './pages/Featuresnew';
 // import SwiperCoverflow from './SwiperCoverflow';
 // import './styles.scss';
 
@@ -20,10 +21,10 @@ function App() {
   return (
     <>
       
-      <div 
+      <div className=''
       style={{
-          backgroundImage: `url(${backgroundImage})`,   
-          backgroundColor: 'darkblue',
+          // backgroundImage: `url(${backgroundImage})`,   
+          backgroundColor: '#03030F',
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center',
@@ -32,9 +33,9 @@ function App() {
         >
         <Navbarnew />
         <FirstPage />
-        {/* <Tokenomics /> */}
+        <Tokenomics />
         {/* <Swipernew /> */}
-        {/* <Features /> */}
+        <Featuresnew />
         {/* <Twits /> */}
 
       </div>

@@ -18,12 +18,12 @@ function Features() {
         <img
             src={twoface}
             alt='twofaces'
-            className='relative inset-0 z-0 w-[883px] h-[883px] -top-[300px]'
+            className='relative inset-0 z-0 w-[883px] h-[883px] -top-[200px]'
         />
             {/* relative inset-0 object-cover z-0 -top-[00px] h-[883px] w-[883px] */}
       </div>
 
-      <div className="absolute inset-0 flex items-center justify-center z-10 -top-[300px] left-[900px]">
+      <div className="absolute inset-0 flex items-center justify-center z-10 top-[10px] left-[900px]">
           <div className="flex flex-col items-start pl-10">
             <h1 className="text-white text-4xl sm:text-5xl lg:text-6xl font-roguehero font-normal text-customft mb-5 h-[60px]">
               FEATURES

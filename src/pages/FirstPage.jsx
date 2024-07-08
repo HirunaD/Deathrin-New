@@ -9,6 +9,7 @@ import mount from '/mountain.png'
 // import mens from '/twomen.png'
 // import mens2 from '/mens2x.png'
 import mens4 from '/mens4x.png'
+import fullbg from '/assets/fullbg.png'
 
 const FirstPage = () => {
   return (
@@ -17,6 +18,12 @@ const FirstPage = () => {
       <div className="relative flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8 py-8 h-[450px]">
 
         <img 
+          src={fullbg} 
+          alt='fullbg' 
+          className='absolute inset-0 w-full object-cover z-0 h-[800px] sm:h-[800px] md:h[1200px] lg:h-[1300px] xl:h-[1500px]' 
+        />
+
+        {/* <img 
           src={backgroundImage} 
           alt='1bg' 
           className='absolute inset-0 w-full object-cover z-0 h-[320px] sm:h-[500px] md:h[700px] xl:h-full' 
@@ -32,9 +39,9 @@ const FirstPage = () => {
           src={rightImage} 
           alt='right' 
           className='absolute right-0 top-0 w-[740px] object-cover z-10 h-[100px] sm:h-[300px] md:h[450px] lg:[550px] xl:h-full' 
-        />
+        /> */}
         
-        <div className="relative z-10 text-center text-white -mt-[120px]">
+        <div className="relative z-10 text-center text-white -mt-12 md:mt-[150px]">
           <div>
             <p className="font-deadpool font-normal h-[30px] md:mt-0 md:text-customff text-[23px]">WELCOME TO</p>
             <p className='font-deadpool font-normal md:text-large text-[50px]'>DEATHRIN</p>
@@ -46,7 +53,7 @@ const FirstPage = () => {
               Deathrine combines strength, agility, and resilience in the world of blockchain.
             </p>
           </div>
-          <div>
+          <div className='md:mt-12'>
             <button className="mt-6 text-base sm:text-lg lg:text-xl bg-gradient-to-r from-leftbuynow to-rightbuynow hover:bg-blue-700 
               text-white font-bold py-2 px-4 rounded-customet w-[170px] h-[38px] md:w-[210px] md:h-[48px]">            
               BuY NoW
@@ -58,7 +65,7 @@ const FirstPage = () => {
       {/* Second Section */}
       <div className="relative flex flex-col justify-center items-center overflow-hidden w-full h-screen -top-[140px] md:top-0">
 
-        <img 
+        {/* <img 
           src={secondBackgroundImage} 
           alt="2-background" 
           className="absolute inset-0 w-full h-[300px] sm:w-full sm:h-full md:w-full md:h-full object-cover z-0" 
@@ -80,7 +87,7 @@ const FirstPage = () => {
           src={mens4}
           alt='mens'
           className='absolute inset-0 w-full h-[230px] sm:w-full sm:h-[300px] md:w-full md:h-[800px] lg:w-full lg:h-full top-[20px] sm:top-[150px] lg:top-0'
-        />
+        /> */}
       </div>
     </>
   );
