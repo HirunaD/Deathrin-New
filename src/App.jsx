@@ -12,6 +12,7 @@ import Swipernew from './pages/Swipernew';
 import Features from './pages/Features';
 import Twits from './pages/Twits';
 import Featuresnew from './pages/Featuresnew';
+import Footer from './components/Footer'
 // import SwiperCoverflow from './SwiperCoverflow';
 // import './styles.scss';
 
@@ -35,8 +36,9 @@ function App() {
         <FirstPage />
         <Tokenomics />
         {/* <Swipernew /> */}
-        <Featuresnew />
+        {/* <Featuresnew /> */}
         {/* <Twits /> */}
+        {/* <Footer /> */}
 
       </div>
       <div>

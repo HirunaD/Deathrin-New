@@ -1,6 +1,6 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
+// import 'swiper/css';
 import box from '/tokenbox.png';
 import leftBox from '/leftTokenbox.png';
 import rightBox from '/rightTokenbox.png';
@@ -29,7 +29,7 @@ function Swipernew() {
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
     >
-      <SwiperSlide className='text-white'>
+      <SwiperSlide className='text-whit'>
         <img
           src={leftBox}
           alt='tokenbox'

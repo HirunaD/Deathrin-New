@@ -17,13 +17,13 @@ const FirstPage = () => {
       {/* First Section */}
       <div className="relative flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8 py-8 h-[450px]">
 
-        <img 
+        {/* <img 
           src={fullbg} 
           alt='fullbg' 
           className='absolute inset-0 w-full object-cover z-0 h-[800px] sm:h-[800px] md:h[1200px] lg:h-[1300px] xl:h-[1500px]' 
-        />
+        /> */}
 
-        {/* <img 
+        <img 
           src={backgroundImage} 
           alt='1bg' 
           className='absolute inset-0 w-full object-cover z-0 h-[320px] sm:h-[500px] md:h[700px] xl:h-full' 
@@ -39,7 +39,7 @@ const FirstPage = () => {
           src={rightImage} 
           alt='right' 
           className='absolute right-0 top-0 w-[740px] object-cover z-10 h-[100px] sm:h-[300px] md:h[450px] lg:[550px] xl:h-full' 
-        /> */}
+        />
         
         <div className="relative z-10 text-center text-white -mt-12 md:mt-[150px]">
           <div>
@@ -65,7 +65,7 @@ const FirstPage = () => {
       {/* Second Section */}
       <div className="relative flex flex-col justify-center items-center overflow-hidden w-full h-screen -top-[140px] md:top-0">
 
-        {/* <img 
+        <img 
           src={secondBackgroundImage} 
           alt="2-background" 
           className="absolute inset-0 w-full h-[300px] sm:w-full sm:h-full md:w-full md:h-full object-cover z-0" 
@@ -87,7 +87,7 @@ const FirstPage = () => {
           src={mens4}
           alt='mens'
           className='absolute inset-0 w-full h-[230px] sm:w-full sm:h-[300px] md:w-full md:h-[800px] lg:w-full lg:h-full top-[20px] sm:top-[150px] lg:top-0'
-        /> */}
+        />
       </div>
     </>
   );
