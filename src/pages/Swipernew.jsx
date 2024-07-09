@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-// import 'swiper/css';
+import 'swiper/swiper-bundle.css';
 import box from '/tokenbox.png';
 import leftBox from '/leftTokenbox.png';
 import rightBox from '/rightTokenbox.png';
@@ -10,7 +10,6 @@ function Swipernew() {
     <Swiper
       spaceBetween={10}
       slidesPerView={3}
-
       breakpoints={{
         640: {
           slidesPerView: 3,
@@ -18,54 +17,53 @@ function Swipernew() {
         },
         768: {
           slidesPerView: 3,
-          spaceBetween: 30,
+          spaceBetween: 10,
         },
         1024: {
           slidesPerView: 3,
-          spaceBetween: 40,
+          spaceBetween: 30,
         },
       }}
-      
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
     >
-      <SwiperSlide className='text-whit'>
+      <SwiperSlide>
         <img
           src={leftBox}
           alt='tokenbox'
-          className='w-[190px] h-[205px] md:w-[230px] md:h-[250px] lg:w-[387px] lg:h-[418px] object-cover'
+          className='w-[190px] h-[205px] sm:w-[250px] sm:h-[268px] lg:w-[387px] lg:h-[418px] object-cover'
         />
       </SwiperSlide>
       <SwiperSlide>
         <img
           src={box}
           alt='tokenbox'
-          className='w-[190px] h-[205px] md:w-[230px] md:h-[250px] lg:w-[387px] lg:h-[418px] object-cover'
+          className='w-[190px] h-[205px] sm:w-[250px] sm:h-[268px] lg:w-[387px] lg:h-[418px] object-cover'
         />
       </SwiperSlide>
       <SwiperSlide>
-      <img
+        <img
           src={rightBox}
           alt='tokenbox'
-          className='w-[190px] h-[205px] md:w-[230px] md:h-[250px] lg:w-[387px] lg:h-[418px] object-cover'
+          className='w-[190px] h-[205px] sm:w-[250px] sm:h-[268px] lg:w-[387px] lg:h-[418px] object-cover'
         />
       </SwiperSlide>
       <SwiperSlide>
-      <img
+        <img
           src={rightBox}
           alt='tokenbox'
-          className='w-[190px] h-[205px] md:w-[230px] md:h-[250px] lg:w-[387px] lg:h-[418px] object-cover'
+          className='w-[190px] h-[205px] sm:w-[250px] sm:h-[268px] lg:w-[387px] lg:h-[418px] object-cover'
         />
       </SwiperSlide>
       <SwiperSlide>
-      <img
+        <img
           src={rightBox}
           alt='tokenbox'
-          className='w-[190px] h-[205px] md:w-[230px] md:h-[250px] lg:w-[387px] lg:h-[418px] object-cover'
+          className='w-[190px] h-[205px] sm:w-[250px] sm:h-[268px] lg:w-[387px] lg:h-[418px] object-cover'
         />
       </SwiperSlide>
     </Swiper>
-  )
+  );
 }
 
-export default Swipernew
+export default Swipernew;

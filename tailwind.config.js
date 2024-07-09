@@ -6,6 +6,8 @@ export default {
   ],
   theme: {
     extend: {
+
+     
       colors: {
         leftBlue: '#234593',
         rightBlue: '#132F6D',

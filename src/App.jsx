@@ -22,14 +22,11 @@ function App() {
   return (
     <>
       
-      <div className=''
+      <div className='mx-auto max-w-[1600px] '
       style={{
           // backgroundImage: `url(${backgroundImage})`,   
           backgroundColor: '#03030F',
-          backgroundSize: 'cover',
-          backgroundRepeat: 'no-repeat',
-          backgroundPosition: 'center',
-          height: 'auto'
+        
         }}
         >
         <Navbarnew />

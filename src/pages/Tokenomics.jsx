@@ -14,21 +14,21 @@ const Tokenomics = () => {
     <div className="relative flex flex-col items-center h-[950px]">
       
       {/* Tokenomics Background Section */}
-      <div className="relative w-full mt-[-540px] sm:mt-[-580px] md:-mt-[550px] lg:-mt-[120px] xl:mt-[100px] 2xl:mt-[150px]">
+      <div className="relative w-full mt-[-900px] sm:mt-[-680px] md:-mt-[10px] lg:mt-[120px] xl:mt-[300px] 2xl:mt-[300px]">
         <img 
           src={tokenomicsBg} 
           alt="Tokenomics Background" 
-          className="w-full h-[80px] sm:w-full sm:h-full md:w-full md:h-full lg:w-full lg:h-[266px] object-cover relative bottom-10 " 
+          className="absolute w-full h-[80px] sm:w-full sm:h-full md:w-full md:h-full lg:w-full lg:h-[266px] md:mt-[10px] object-cover" 
         />
-        <div className="absolute inset-0 flex items-center justify-center mt-[80px]">
-          <h1 className="text-white text-[30px] sm:text-[40px] lg:text-[51px] text-center font-deadpool font-normal -mt-[160px]">
+        <div className="absolute inset-0 flex items-center justify-center -mt-[50px] sm:-mt-[80px] xl:-mt-[280px]">
+          <h1 className="text-white text-[30px] sm:text-[40px] lg:text-[51px] text-center font-deadpool font-normal">
             TOKENOMICS
           </h1>
         </div>
       </div>
       
       {/* Tokenbox Image */}
-      <div className="relative w-full flex justify-center mt-[0px] sm: z-10">
+      <div className="relative w-full flex justify-center mt-[0px] z-10">
 
         <Swipernew/>
         
